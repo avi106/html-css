@@ -1,0 +1,69 @@
+html {
+    font-size: 62.57%;
+    font-family: serif;
+}
+
+body {
+    /* font-size: 1.8rem; */
+    line-height: 1.618;
+    margin: auto;
+    background-color: #f9f9f9;
+    padding: 13px;
+
+}
+
+h2 {
+    line-height: 1.1;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2.35em;
+}
+
+.ticketsBanner{
+    width: 100%;
+}
+
+.seasonTicket {
+    width: 100%;
+}
+
+
+
+.buyButton{
+    background-color: red;
+    border-radius: 15px 15px;
+    color: white;
+    padding: 15px 32px;
+    display: inline-block;
+    font-size: 16px;
+    
+}
+
+
+.Schedule {
+    width: 100%;
+}
+
+
+
+.sports {
+    width: 100%;
+}
+
+.spHeader  {
+    color: black;  
+    text-align: center; 
+
+}
+
+
+.buy-container {
+    display: flex;
+    margin: 15%;
+}
+
+/* .buy-container > div {
+    margin: auto;
+} */
+.baseball {
+    width: 100%;
+}
