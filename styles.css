@@ -1,69 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400');
+
 html {
     font-size: 62.57%;
     font-family: serif;
 }
 
-body {
+body  {
     /* font-size: 1.8rem; */
     line-height: 1.618;
     margin: auto;
     background-color: #f9f9f9;
-    padding: 13px;
 
 }
-
-h2 {
+h2  {
     line-height: 1.1;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Raleway, Geneva, Tahoma, sans-serif;
     font-size: 2.35em;
 }
 
-.ticketsBanner{
+.header-image {
     width: 100%;
 }
 
-.seasonTicket {
+.ticket-banner {
     width: 100%;
 }
 
+.season-banner {
+    width: 100%;
+    margin-top: -5px;
+}
 
-
-.buyButton{
-    background-color: red;
-    border-radius: 15px 15px;
+.buy-ticket {
+    background: red;
     color: white;
-    padding: 15px 32px;
-    display: inline-block;
-    font-size: 16px;
+    padding: 10px;
+}
+
+.paragraph-container {
+    padding: 10px;
+}
+
+.schedule-container h1 {
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.schedule-container img {
+    width: 96%;
+    margin: -21px 11px 9px 15px;
+    padding: 5px
+}
+
+
+.table-container {
+    padding: 1rem;
+    width: 100%;
+}
+
+.table-container strong {
+    letter-spacing: 2px;
+
+}
+
+.green-image img {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.sports-container h2 {
+    text-align: center;
+    font-weight: lighter;  
+    letter-spacing: 1px;
+}
+
+.game-container   {
+    display: flex;
+    align-content: center;
+    padding: 15px;
+    height: 100%;
+    width: 100%;
+}
+
+
+.baseball-container   {
+    padding: 10px;
+    margin: 2px;
     
 }
 
+.baseball-container img {
+    height: 40%;
+    width: 50%;
+}
 
-.Schedule {
-    width: 100%;
+.basketball-container img {
+    height: 40%;
+    width: 50%;
 }
 
 
-
-.sports {
-    width: 100%;
+ .gray-banner img {
+    width: 96%;
+    padding: 10px;
+    margin-top: 20px; 
 }
 
-.spHeader  {
-    color: black;  
-    text-align: center; 
-
+footer h3 {
+    text-align: center;
 }
 
-
-.buy-container {
+footer ul  {
     display: flex;
-    margin: 15%;
+
 }
 
-/* .buy-container > div {
-    margin: auto;
-} */
-.baseball {
-    width: 100%;
-}
+
+
+
