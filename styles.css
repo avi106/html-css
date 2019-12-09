@@ -10,6 +10,8 @@ body  {
     line-height: 1.618;
     margin: auto;
     background-color: #f9f9f9;
+    padding-right: 10em;
+    padding-left: 10em;
 
 }
 h2  {
@@ -37,7 +39,7 @@ h2  {
     padding: 10px;
 }
 
-.paragraph-container {
+.article-container {
     padding: 10px;
 }
 
@@ -74,6 +76,11 @@ h2  {
     letter-spacing: 1px;
 }
 
+.sports-newsarticle-content {
+    margin: 1px;
+    text-align: center;
+}
+
 .game-container   {
     display: flex;
     align-content: center;
@@ -89,14 +96,23 @@ h2  {
     
 }
 
+.basketball-container {
+    padding: 10px;
+    margin: 2px;
+}
+
 .baseball-container img {
     height: 40%;
-    width: 50%;
+    width: 91%;
+}
+
+.baseball-container h3 {
+    text-align: center;
 }
 
 .basketball-container img {
     height: 40%;
-    width: 50%;
+    width: 91%;
 }
 
 
@@ -115,6 +131,17 @@ footer ul  {
 
 }
 
+.sender-info {
+    text-align: center;
+}
+
+.baseball-button {
+    margin-top: 10px;
+}
+
+.buy-button {
+    margin-top: 10px;
+}
 
 
 
