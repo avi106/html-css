@@ -10,15 +10,11 @@ body  {
     line-height: 1.618;
     margin: auto;
     background-color: #f9f9f9;
-    padding-right: 10em;
-    padding-left: 10em;
+    padding-right: 15em;
+    padding-left: 15em;
 
 }
-h2  {
-    line-height: 1.1;
-    font-family: Verdana, Raleway, Geneva, Tahoma, sans-serif;
-    font-size: 2.35em;
-}
+
 
 .header-image {
     width: 100%;
@@ -44,30 +40,45 @@ h2  {
 }
 
 .schedule-container h1 {
-    padding: 10px;
     margin-left: 10px;
 }
 
 .schedule-container img {
-    width: 96%;
-    margin: -21px 11px 9px 15px;
-    padding: 5px
-}
-
-
-.table-container {
-    padding: 1rem;
     width: 100%;
+    margin: -7px 8px 5px;
 }
 
-.table-container strong {
-    letter-spacing: 2px;
+.game-row {
+    width: 100%;
+    margin-bottom: 1em;
+}
 
+.game-item {
+    display: inline-block;
+    padding: .5em;
+}
+
+.game-date {
+    width: 11%;
+}
+
+.game-time {
+    width: 24%
+}
+
+.game-location {
+    width: 24%;
+}
+
+.game-tickets {
+    color: red;
+    font-weight: lighter;
 }
 
 .green-image img {
     width: 100%;
     margin-top: 20px;
+    margin-left: 10px;
 }
 
 .sports-container h2 {
@@ -78,7 +89,6 @@ h2  {
 
 .sports-newsarticle-content {
     margin: 1px;
-    text-align: center;
 }
 
 .game-container   {
@@ -103,36 +113,86 @@ h2  {
 
 .baseball-container img {
     height: 40%;
-    width: 91%;
+    width: 80%;
 }
 
-.baseball-container h3 {
-    text-align: center;
-}
 
 .basketball-container img {
     height: 40%;
-    width: 91%;
+    width: 80%;
 }
 
 
  .gray-banner img {
     width: 96%;
-    padding: 10px;
-    margin-top: 20px; 
+    padding: 10px; 
 }
 
-footer h3 {
+.contact {
     text-align: center;
+    margin: 0;
+    font-size: 2em;
 }
 
-footer ul  {
+.main-footer {
+    padding: .25em 0;
+}
+
+.footer-nav {
+    display: flex;
+    
+}
+
+
+
+/* .main-footer {
+    padding: .25em 0;
+} */
+
+/* .main-footer-container {
+    
+    align-items: center;
+} */
+
+/* .main-footer-container ul {
+    flex-grow: 1;
+    display: flex;
+    text-align: center;
+} */
+
+/* .footer-nav li {
+    padding: 0.5em;
+} */
+
+.footer-nav img {
+    width: 30px;
+    height: 30px;
+    
+}
+
+/* .footer-nav a {
+    display: inline-block;
+    padding: .5em;
+    color: white;
+    text-decoration: none;
+} */
+
+/* .main-footer h3 {
+    text-align: center;
+    font-size: large;
+    font-weight: lighter;
+} */
+
+/* footer ul  {
     display: flex;
 
-}
+} */
 
 .sender-info {
     text-align: center;
+    margin-top: 20%;
+    font-size: large;
+    font-weight: lighter;
 }
 
 .baseball-button {
