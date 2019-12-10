@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,400');
+* {
+    box-sizing: border-box;
+    font-family: Raleway;
+    color: #777;
+}
 
 html {
     font-size: 62.57%;
@@ -6,18 +11,16 @@ html {
 }
 
 body  {
-    /* font-size: 1.8rem; */
+    font-size: 1.8rem; 
     line-height: 1.618;
     margin: auto;
     background-color: #f9f9f9;
-    padding-right: 15em;
-    padding-left: 15em;
-
+    padding-right: 20em;
+    padding-left: 20em;
 }
 
-
 .header-image {
-    width: 100%;
+    max-width: 100%;
 }
 
 .ticket-banner {
@@ -26,7 +29,7 @@ body  {
 
 .season-banner {
     width: 100%;
-    margin-top: -5px;
+    margin-top: -9px;
 }
 
 .buy-ticket {
@@ -51,6 +54,7 @@ body  {
 .game-row {
     width: 100%;
     margin-bottom: 1em;
+    margin-left: 5px;
 }
 
 .game-item {
@@ -67,18 +71,23 @@ body  {
 }
 
 .game-location {
-    width: 24%;
+    width: 28%;
 }
 
 .game-tickets {
     color: red;
     font-weight: lighter;
+    width: 15%;
 }
 
 .green-image img {
     width: 100%;
     margin-top: 20px;
     margin-left: 10px;
+}
+
+.sports-container {
+    margin: auto;
 }
 
 .sports-container h2 {
@@ -112,20 +121,20 @@ body  {
 }
 
 .baseball-container img {
-    height: 40%;
-    width: 80%;
+    max-width: 80%;
 }
 
 
 .basketball-container img {
-    height: 40%;
-    width: 80%;
+    max-width: 80%;
 }
 
+.banner-section {
+    margin: 10px;
+}
 
  .gray-banner img {
-    width: 96%;
-    padding: 10px; 
+    width: 100%;
 }
 
 .contact {
@@ -140,57 +149,24 @@ body  {
 
 .footer-nav {
     display: flex;
-    
+    margin-left: 20%;   
 }
 
-
-
-/* .main-footer {
-    padding: .25em 0;
-} */
-
-/* .main-footer-container {
-    
-    align-items: center;
-} */
-
-/* .main-footer-container ul {
-    flex-grow: 1;
-    display: flex;
-    text-align: center;
-} */
-
-/* .footer-nav li {
-    padding: 0.5em;
-} */
-
-.footer-nav img {
-    width: 30px;
-    height: 30px;
-    
-}
-
-/* .footer-nav a {
+.footer-nav li {
     display: inline-block;
-    padding: .5em;
-    color: white;
-    text-decoration: none;
-} */
+}
 
-/* .main-footer h3 {
-    text-align: center;
-    font-size: large;
-    font-weight: lighter;
-} */
-
-/* footer ul  {
-    display: flex;
-
-} */
-
+.gray-banner {
+    margin: 10px
+}
+.footer-nav img {
+    width: 100%;
+    height: 100%;
+    
+}
 .sender-info {
     text-align: center;
-    margin-top: 20%;
+    margin-top: 10%;
     font-size: large;
     font-weight: lighter;
 }
@@ -202,6 +178,7 @@ body  {
 .buy-button {
     margin-top: 10px;
 }
+
 
 
 
