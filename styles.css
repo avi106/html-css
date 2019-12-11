@@ -19,12 +19,25 @@ body  {
     padding-left: 20em;
 }
 
-.header-image {
+.main-header {
+    padding-bottom: 15px;
+}
+
+.header-content img {
     max-width: 100%;
 }
 
-.ticket-banner {
+.season-ticket-banner {
+    margin-top: -8px;
+}
+
+.season-ticket-banner img {
     width: 100%;
+}
+
+.game-article-header {
+    font-weight: bold;
+    color: black;
 }
 
 .season-banner {
@@ -38,17 +51,21 @@ body  {
     padding: 10px;
 }
 
-.article-container {
-    padding: 10px;
-}
-
 .schedule-container h1 {
     margin-left: 10px;
+    font-weight: bold;
+    color: black;
 }
 
 .schedule-container img {
     width: 100%;
     margin: -7px 8px 5px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0, 1.5em
 }
 
 .game-row {
@@ -67,17 +84,26 @@ body  {
 }
 
 .game-time {
-    width: 24%
+    width: 25%
 }
 
 .game-location {
-    width: 28%;
+    width: 40%;
 }
 
-.game-tickets {
+/* .game-tickets {
     color: red;
     font-weight: lighter;
     width: 15%;
+} */
+
+.btn {
+    text-align: center;
+    cursor: pointer;
+    color: red;
+    padding: .67em, .67em;
+    vertical-align: middle;
+
 }
 
 .green-image img {
@@ -92,8 +118,10 @@ body  {
 
 .sports-container h2 {
     text-align: center;
-    font-weight: lighter;  
+    font-weight: bolder; 
+    color: black; 
     letter-spacing: 1px;
+
 }
 
 .sports-newsarticle-content {
@@ -171,12 +199,20 @@ body  {
     font-weight: lighter;
 }
 
+.sender-info a {
+    color: blue
+}
+
 .baseball-button {
     margin-top: 10px;
 }
 
 .buy-button {
     margin-top: 10px;
+}
+
+.ticket-btn {
+    max-width: 19%;
 }
 
 
